@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  objective: MyString
+  difficulty: MyString
+  reward: MyString
+  completed: false
+
+two:
+  user: two
+  objective: MyString
+  difficulty: MyString
+  reward: MyString
+  completed: false
