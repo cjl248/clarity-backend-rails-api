@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_11_153154) do
+ActiveRecord::Schema.define(version: 2019_10_11_183834) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -33,14 +33,16 @@ ActiveRecord::Schema.define(version: 2019_10_11_153154) do
     t.boolean "completed"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "importance"
+    t.string "consequence"
     t.index ["user_id"], name: "index_goals_on_user_id"
   end
 
   create_table "inspirations", force: :cascade do |t|
-    t.string "type"
     t.string "source"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "content"
   end
 
   create_table "journal_entries", force: :cascade do |t|
@@ -69,6 +71,8 @@ ActiveRecord::Schema.define(version: 2019_10_11_153154) do
     t.integer "experience"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "username"
+    t.string "password_digest"
   end
 
   add_foreign_key "favorite_inspirations", "inspirations"
