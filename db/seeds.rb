@@ -50,7 +50,7 @@ JournalEntry.create(
   content: "Aliquam vestibulum morbi blandit cursus risus at ultrices. Feugiat
   scelerisque varius morbi enim nunc faucibus a. Convallis a cras semper auctor
   neque vitae tempus quam. Enim ut sem viverra aliquet eget. Ultrices tincidunt
-  arcu non sodales. "
+  arcu non sodales."
 )
 
 # ==================================================== #
