@@ -53,6 +53,7 @@ A mindfulness hub for users to find inspiration, journal, and search for guided 
   <i>For information on frontend installation please click here: <a href="https://github.com/cjl248/clarity-frontend-react">Clarity Frontend</a></i>
 </p>
 
+**Backend Installation**
 - Clone this repo to your local machine git clone `<this-repo-url>`
 - `cd` to the backend directory
 - Run bundle install to install requiered dependencies
