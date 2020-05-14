@@ -56,7 +56,7 @@ A mindfulness hub for users to find inspiration, journal, and search for guided 
 **Backend Installation**
 - Clone this repo to your local machine git clone `<this-repo-url>`
 - `cd` to the backend directory
-- Run bundle install to install requiered dependencies
+- Run bundle install to install required dependencies
 - Make sure you have a JWT Secret Key
 - Add jwt secert key in the /config/application.yml file:
 `
