@@ -69,4 +69,4 @@ jwt_secret_key: 'YOUR_SECRET_KEY'
 - Run `rails s` to start the server
 
 ## Video
-- (to include video examples of app functionality)
+(to include video examples of app functionality)
