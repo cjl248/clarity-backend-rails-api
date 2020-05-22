@@ -42,8 +42,8 @@ A mindfulness hub for users to find inspiration, journal, and search for guided 
 
 ## Prerequisites
 <h3>Before you begin, please make sure you have installed the latest versions of: </h3>
-- Ruby <br>
-- Rails <br>
+- <a href="https://www.ruby-lang.org/en/">Ruby</a> <br>
+- <a href="https://rubyonrails.org/">Rails</a> <br>
 - PostgreSQL <br>
 - Node <br>
 - NPM
