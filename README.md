@@ -5,7 +5,7 @@ A mindfulness hub for users to find inspiration, journal, and search for guided 
 </div>
 
 <div align="center">
-  <sub>Built with ❤️ by 
+  <sub>Built with ❤️ by
   <a href="https://github.com/cjl248">Chris Liendo</a>
   </sub>
 </div>
@@ -29,7 +29,7 @@ A mindfulness hub for users to find inspiration, journal, and search for guided 
 - bcrypt \[~> 3.1.7\]
 - jwt \[~> 2.2\]
 
-**Frontend** 
+**Frontend**
 - React \[^16.10.2\]
 - Material-UI \[^4.5.1\]
 - Custom CSS
@@ -68,5 +68,28 @@ jwt_secret_key: 'YOUR_SECRET_KEY'
 - Run `rails db:seed` to create and save the seed data
 - Run `rails s` to start the server
 
-## Video
-(to include video examples of app functionality)
+## Demos
+
+**Users can select an inspiring picture and quote combination for their landing page...**
+
+<img src="./public/GIFS/inspiration-demo.gif"
+     alt="Showing how users can cycle through different inspiring pictures."
+     style="max-width: 100%" />
+
+**Users can also add, edit and delete their journal entries, which persist in the database...**
+
+<img src="./public/GIFS/journal-demo.gif"
+  alt="Showing Clarity's journaling functionality."
+  style="max-width: 100%" />
+
+**As well as record timed meditation sessions...**
+
+<img src="./public/GIFS/meditation-demo.gif"
+  alt="Showing a sample timed meditation."
+  style="max-width: 100%" />
+
+**And search for mindfulness videos from a variety of channels by keyword.**
+
+<img src="./public/GIFS/video-search-demo.gif"
+  alt="Showing an example if video search."
+  style="max-width: 100%" />

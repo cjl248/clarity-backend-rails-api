@@ -19,7 +19,7 @@ class JournalEntriesController < ApplicationController
   def update
     journal_entry = JournalEntry.find(params[:id])
     byebug
-    journal_entry.update(journal_entry_params)
+    journal_entry.update(journal_en try_params)
     if journal_entry.valid?
       options = {
         except: [:created_at, :updated_at]
